@@ -1,0 +1,84 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S09_ir.png,-,image,chỉ có ở peer,,,mine,GUIDE §2 (Task 0),"Giữ nguyên mine (task chính nộp 22 ảnh cốt lõi, S09-S10 là task mở rộng)"
+S09_rgb.png,-,image,chỉ có ở peer,,,mine,GUIDE §2 (Task 0),"Giữ nguyên mine (task chính nộp 22 ảnh cốt lõi, S09-S10 là task mở rộng)"
+S10_ir.png,-,image,chỉ có ở peer,,,mine,GUIDE §2 (Task 0),"Giữ nguyên mine (task chính nộp 22 ảnh cốt lõi, S09-S10 là task mở rộng)"
+S10_rgb.png,-,image,chỉ có ở peer,,,mine,GUIDE §2 (Task 0),"Giữ nguyên mine (task chính nộp 22 ảnh cốt lõi, S09-S10 là task mở rộng)"
+D01.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D01.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D01.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D01.png,face,eye_left,khác giá trị (IoU=0.72),open,unknown,mine,GUIDE §4.1,"D01 mắt trái mở rõ dưới ánh sáng IR, giữ eye_left=open"
+D01.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D01.png,face13,left_eye_outer.occluded,khác cờ,0,1,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D01.png,face13,left_eye_inner.occluded,khác cờ,0,1,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D01.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D01.png,face13,left_eye_lower.occluded,khác cờ,0,1,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D02.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D02.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.68),other,road,ambiguous,GUIDE §4.1,Thảo luận thống nhất theo góc nhìn đồng tử thực tế trên ảnh xoay 90°
+D02.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D02.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,nose_tip.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,mouth_left.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,lip_upper.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D02.png,face13,lip_lower.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D03.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D03.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D03.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D03.png,face,gaze_zone,khác giá trị (IoU=0.90),other,road,ambiguous,GUIDE §4.1,Thảo luận thống nhất theo góc nhìn đồng tử thực tế trên ảnh xoay 90°
+D03.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D04.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D04.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D04.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D04.png,hand,on_wheel,khác giá trị (IoU=0.72),yes,no,peer,"GUIDE §3, COMMON_ERRORS","Sửa mine từ 'yes' thành 'no' trong v2 (xe tự lái Drive&Act, tay buông vô lăng)"
+D04.png,face,gaze_zone,khác giá trị (IoU=0.91),other,mirror_r,ambiguous,GUIDE §4.1,Thảo luận thống nhất theo góc nhìn đồng tử thực tế trên ảnh xoay 90°
+D04.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+D05.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D05.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D05.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D05.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D06.png,frame_meta,camera_blocked,khác giá trị,no,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D06.png,frame_meta,light,khác giá trị,unknown,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D06.png,frame_meta,modality,khác giá trị,ir,,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+D06.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D06.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.45,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D06.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+D06.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D06.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D06.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D06.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Giữ cờ outside=1 khi điểm rơi ra ngoài vùng nhìn của camera
+D06.png,face13,mouth_right.occluded,khác cờ,1,0,mine,"GUIDE §4.1, §4.4",Đánh dấu occluded=1 phản ánh đúng che khuất quang học/tư thế
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),no,unknown,mine,"GUIDE §4.1, labels_schema",Peer cần sửa occupied='yes' thành 'no' (schema không cho phép yes)
+S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,mine,GUIDE §4.1,Peer cần đồng nhất facing='front' giữa bản RGB và IR
+S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),no,yes,mine,"GUIDE §4.1, labels_schema",Peer cần sửa occupied='yes' thành 'no' (schema không cho phép yes)
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,mine,"GUIDE §4.1, labels_schema",Peer cần sửa occupied='yes' thành 'no' (schema không cho phép yes)
+S03_ir.png,infant_seat,seat,khác giá trị (IoU=0.99),rear_left,rear_right,mine,"GUIDE §3, COMMON_ERRORS",Peer cần sửa seat='rear_right' thành 'rear_left' (phải ảnh = trái xe)
+S03_rgb.png,infant_seat,seat,khác giá trị (IoU=0.96),rear_left,rear_right,mine,"GUIDE §3, COMMON_ERRORS",Peer cần sửa seat='rear_right' thành 'rear_left' (phải ảnh = trái xe)
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.95),unknown,open,mine,GUIDE §4.1 (OMS chỉ box),"Giữ unknown theo guideline (OMS chỉ vẽ box face, không đoán thuộc tính mắt)"
+S04_ir.png,face,glasses,khác giá trị (IoU=0.95),unknown,none,mine,GUIDE §4.1 (OMS chỉ box),"Giữ unknown theo guideline (OMS chỉ vẽ box face, không đoán thuộc tính mắt)"
+S04_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+S04_ir.png,infant_seat,seat,khác giá trị (IoU=0.99),rear_right,driver,mine,"GUIDE §4.1, COMMON_ERRORS",Peer cần sửa seat='driver' thành 'rear_right' (OMS nhìn hàng ghế sau)
+S04_rgb.png,frame_meta,light,khác giá trị,night,day,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+S04_rgb.png,face,eye_right,khác giá trị (IoU=0.91),unknown,open,mine,GUIDE §4.1 (OMS chỉ box),"Giữ unknown theo guideline (OMS chỉ vẽ box face, không đoán thuộc tính mắt)"
+S04_rgb.png,face,glasses,khác giá trị (IoU=0.91),unknown,none,mine,GUIDE §4.1 (OMS chỉ box),"Giữ unknown theo guideline (OMS chỉ vẽ box face, không đoán thuộc tính mắt)"
+S04_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+S04_rgb.png,infant_seat,seat,khác giá trị (IoU=0.99),rear_right,driver,mine,"GUIDE §4.1, COMMON_ERRORS",Peer cần sửa seat='driver' thành 'rear_right' (OMS nhìn hàng ghế sau)
+S05_rgb.png,frame_meta,light,khác giá trị,night,day,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+S06_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline
+S06_rgb.png,frame_meta,light,khác giá trị,day,night,mine,"GUIDE §4.1, §4.3","Peer cần bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+S06_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,GUIDE §4.1,Giữ theo mine do tuân thủ sát guideline

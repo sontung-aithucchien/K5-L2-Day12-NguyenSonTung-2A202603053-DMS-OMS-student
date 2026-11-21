@@ -1,0 +1,9 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Áo tối màu trùng độ sáng với bọc ghế sau trên kênh IR mô phỏng đơn sắc","person (box)","Khó nhận diện biên dưới thân người, phải đối chiếu với ảnh S01_rgb để kéo bounding box sát phần cơ thể"
+S03_ir,IR_sim,"Balo/túi xách mất hoàn toàn thông tin màu sắc sắc tố, chỉ còn độ tương phản độ sáng dạng xám","object (type)","Chỉ nhận dạng được hình dạng bao ngoài là bag, không phân biệt được chất liệu hoặc chi tiết màu sắc của túi"
+S04_ir,IR_sim,"Kênh hồng ngoại mô phỏng trong điều kiện thiếu sáng làm mất chi tiết viền dây an toàn và nếp gấp áo","seatbelt","Phải giữ seatbelt là not_worn hoặc unknown, tuyệt đối không được suy đoán"
+S06_ir,IR_sim,"Hộp carton trên ghế giữa và ghế phải bị mất chi tiết bề mặt và chữ in hoa văn so với ảnh RGB","object (box, type)","Phải dựa vào cấu trúc khối hộp hình học để định dạng box cho object type=box"
+D01,real_IR,"Đèn LED NIR phản xạ tạo đốm sáng mạnh (corneal reflection) trên giác mạc mắt tài xế","face13 (eye points)","Cần định vị cẩn thận điểm góc mắt (eye inner/outer) để không nhầm tâm điểm phản xạ sáng với con ngươi"
+D02,real_IR,"Tài xế cúi đầu và góc chiếu LED NIR từ bên cạnh làm đổ bóng sâu che khuất hốc mắt","eye_left, eye_right, face13","Bật cờ occluded=1 cho các điểm mắt bị bóng tối che khuất, giữ thuộc tính trạng thái mắt chính xác"
+D03,real_IR,"Đốm phản xạ của đèn LED NIR trên tròng kính che khuất mí mắt và con ngươi mắt phải","eye_right","Phải ghi unknown thay vì đoán là closed do không thấy rõ mí mắt khép"
+D04,real_IR,"Ánh sáng hồng ngoại NIR xuyên qua tròng kính cận trong suốt (clear glasses) làm lộ rõ cấu trúc mắt","glasses, eye_state","Ghi nhận rõ glasses=clear, trạng thái mắt quan sát rõ ràng mà không bị cản trở bởi ánh sáng khả kiến ban đêm"

@@ -1,0 +1,9 @@
+File: K5-L2-DAY12-NguyenSonTung-2A202603053-DMSOMS/export_final.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+  [WARN] D02.png: eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+  [WARN] D02.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo Checkpoint B:
+- D02.png (eye_left, eye_right): Mặt tài xế ở tư thế hơi cúi/nghiêng khi thao tác, mí mắt ở trạng thái mở nhưng các điểm mốc mắt bị bóng tối và hốc mắt che khuất một phần; các điểm keypoint được đánh dấu cờ occluded=1 để phản ánh chính xác tình trạng che khuất quang học.
+- Trục tọa độ và quy ước trái/phải: Ảnh D01, D02 xoay 90° (đầu tài xế hướng về bên phải ảnh). Đã kiểm tra đúng quy ước: mắt trái của tài xế có tọa độ y lớn hơn mắt phải (nằm thấp hơn trên ảnh).
