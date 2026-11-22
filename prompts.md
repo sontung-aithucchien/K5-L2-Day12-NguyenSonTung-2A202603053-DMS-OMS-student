@@ -1,4 +1,4 @@
-# Khai báo dùng AI — Nguyen Son Tung
+# Khai báo dùng AI — Nguyễn Sơn Tùng
 
 | # | Công cụ | Bạn hỏi gì (tóm tắt) | Bạn dùng kết quả thế nào | Bạn có kiểm lại không? Bằng gì? |
 |---|---|---|---|---|
